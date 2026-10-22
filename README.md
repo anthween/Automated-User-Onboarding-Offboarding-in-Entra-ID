@@ -14,7 +14,6 @@ This is a practical lab I built to show automated identity and access management
 - **Automated User Onboarding (`Provision-Users.ps1`):** Wrote a PowerShell script that parses CSV data, auto-detects the tenant's primary domain name, provisions user accounts, sets temporary passwords with forced resets on first login, and assigns users to target security groups.
 - **Automated Offboarding (`Deprovision-Users.ps1`):** Wrote an offboarding script that strips group access, sets `AccountEnabled = $false`, and revokes active OAuth sign-in sessions across all devices using `Revoke-MgUserSignInSession`.
 - **Error Handling & Efficiency:** Configured splatting hashtables (`@userParams`) due to 'positional parameter cannot be found' errors.
-- **Soft Offboarding Strategy:** Kept account soft-deprovisioning over hard deletion to preserve audit trails, mailbox data, and compliance records.
 
 ## Project Screenshots
 1. User provisioning Script Execution
