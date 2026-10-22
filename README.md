@@ -24,4 +24,4 @@ This is a practical lab I built to show automated identity and access management
 ![EntraUsersFinance](EntraUsersFinance.png)
 ![EntraUsersEngineering](EntraUsersEngineering.png)
 4. Deprovisioning & Session Revocation
-5. ![UserDeprovisioning](UserDeprovisioningScripExe.png)
+5. ![UserDeprovisioning](UserDeprovisioningScriptExe.png)
